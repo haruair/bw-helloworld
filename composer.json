@@ -1,0 +1,20 @@
+{
+    "name": "haruair/bw-study",
+    "authors": [
+        {
+            "name": "Edward Kim",
+            "email": "onward.edkim@gmail.com"
+        }
+    ],
+    "autoload": {
+	    "psr-4": {
+		    "Haruair\\": "src"
+	    }
+    },
+    "require": {
+        "broadway/broadway": "^1.1",
+        "broadway/event-store-mongodb": "^0.1.0",
+        "broadway/uuid-generator": "^0.4.0",
+        "ramsey/uuid": "^3.7"
+    }
+}
